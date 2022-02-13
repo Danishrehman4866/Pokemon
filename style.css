@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+   justify-content: center;
+    background-color: rgb(235, 219, 219);
+}
+.box1{
+    border: silver 1px solid;
+    width: 100px;
+}
+.box1 img{
+    padding-top: 10px;
+    padding-left: 7px;
+    margin-left: 3px;
+    margin-top: 5px;
+
+}
+.box2{
+    padding-top: 4px;
+    border: 5px solid  rgb(235, 219, 219);;
+}
+.box2 img{
+    border: solid 1px silver;
+}
+.hero {
+    padding: 5px;
+    background-color: aliceblue;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+.hero1{
+    height: 150px;
+}
+
+.box5.box6.box7.box8.box9.box10.box11{
+    justify-content: space-between;
+    border: 5px solid cornsilk;
+    width: 113px;
+}
+.hero a{
+    text-decoration: none;
+}
+.image{
+    display: flex;
+    padding-left: 160px;
+    
+}
+
+
+.float-child {
+   display: flex;
+   justify-content: center;
+   height: 150px;
+   
+}  
+.heading{
+    background-color: black;
+    padding-left: 5px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 14px;
+    margin-top: -4px;
+    height: 100px;
+    padding-top: 15px;
+}
+.heading1{
+    background-color: black;
+    padding-left: 5px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -4px;
+    height: 100px;
+    padding-top: 15px;
+}
+.heading2{
+    background-color: black;
+    padding-left: 5px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 14px;
+    margin-top: -4px;
+    height: 100px;
+    padding-top: 15px;
+}
+.blue{
+    padding-left: 15px;
+}
+.content img{
+    font-family: "Flexo-Medium",arial,sans-serif;
+    background: #232323;
+    color: #919191;
+    float: left;
+    font-size: 125%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    position: relative;
+    padding: 11px 20px 8px;
+    text-transform: none;
+    vertical-align: middle;
+    width: 1543px;
+    border-radius: 5px 5px 0 0;
+}
+li{
+    text-decoration: none;
+}
+.li img{
+    padding-left: 266px;
+}
+ li a{
+    text-decoration: none;
+    color: rgb(155, 152, 152);
+    margin-left: 273px;
+    padding-top: 34px;
+}
+
+
+.box6:hover{
+    background-color: red;
+}
+.box7:hover{
+    background-color: orange;
+}
+.box8:hover{
+    background-color: yellow;
+}
+.box9:hover{
+    background-color: green;
+}
+.box10:hover{
+    background-color: rgb(0, 110, 255);
+}
+.box11:hover{
+    background-color: blue;
+}
